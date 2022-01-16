@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="header d-flex justify-content-between">
+    <div class="page-title">
+      <h1>New post</h1>
+      <p class="subtitle">You can post anything you want in here.</p>
+      <p class="subtitle">I might delete it.</p>
+    </div>
+    <div class="flex-item">
+      <%= link_to 'Go back', root_path, class: "btn btn-secondary" %>
+    </div>
+  </div>
+  <div class="main-content">
+    <%= simple_form_for @article do |f| %>
+      <%= f.input :title %>
+      <%= f.input :description %>
+      <%= f.input :content %>
+      <%= f.submit %>
+    <% end %>
+  </div>
+</div>
