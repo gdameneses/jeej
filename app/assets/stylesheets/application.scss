@@ -10,9 +10,12 @@
 
 // Your CSS partials
 @import "components/index";
+@import "components/container";
+@import "components/main-content";
 @import "components/form";
 @import "pages/index";
 
 body {
   color: $black;
+  background-color: $grey;
 }

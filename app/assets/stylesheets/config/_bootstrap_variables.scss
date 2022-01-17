@@ -16,7 +16,6 @@ $success:    $green;
 $info:       $yellow;
 $danger:     $red;
 $warning:    $orange;
-$black: rgb(15, 15, 15);
 
 // Buttons & inputs' radius
 $border-radius:    2px;
@@ -24,3 +23,6 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+$black: rgb(15, 15, 15);
+$white: rgb(240, 240, 240);
+$grey: rgb(120, 120, 120);
